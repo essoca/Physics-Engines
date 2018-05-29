@@ -1,3 +1,6 @@
+Equilibrium of forces
+===============
+
 The condition of equilibrium of an object is that the net external force acting on it must be zero. Since force is a vector, and we already know how to add vectors (to get the net or resultant), we can apply this knowledge to find the tensions of two strings that hold an object against gravity. ![Block hanging on a string](https://raw.githubusercontent.com/essoca/Physics-Engines/master/images/forces.png)
 
 The condition of equilibrium require that the tensions (red vectors) in the left and right strings add up to the weight *mg*. By moving the points *p*<sub>*L*</sub> and *p*<sub>*R*</sub> and (without moving the block), which then require new strings to be attached, we can find the tensions as functions of the angles made with respect to the horizontal and as a function of weight.
