@@ -1,0 +1,127 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[dvips]{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color,colortbl}
+\usepackage{bm}
+\newcommand{\avg}[1]{\langle#1\rangle}
+\newcommand{\ket}[1]{|#1\rangle}
+\newcommand{\bra}[1]{\langle#1|}
+\newcommand{\tm}[1]{\textrm{#1}}
+\newcommand{\brket}[3]{\langle#1|#2|#3\rangle}
+\newcommand{\overlap}[2]{\langle#1|#2\rangle}
+\newcommand{\outpr}[2]{\ket{#1}\bra{#2}}
+\newcommand{\kk}{\bm{k}}
+\newcommand{\q}{\bm{q}}
+\def\dbar{{\mathchar'26\mkern-12mu d}}
+\setlength{\textwidth}{16cm}
+\definecolor{snow}{rgb}{0.93,0.91,0.91}
+\definecolor{lgray}{rgb}{0.83,0.83,0.83}
+\definecolor{lyell}{rgb}{1,1,0.88}
+\definecolor{gwhite}{rgb}{0.97,0.97,1}
+\hoffset-2cm
+%\voffset -2cm
+%opening
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{equation}
+\begin{pmatrix}
+    \cos\theta_1 & \cos\theta_2 \\    
+    \sin\theta_2& \sin\theta_2
+\end{pmatrix}
+\begin{pmatrix}
+    v_1\\
+    v_2
+\end{pmatrix}
+=
+\begin{pmatrix}
+    \cos\theta_1' & \cos\theta_2' \\    
+    \sin\theta_2'& \sin\theta_2'
+\end{pmatrix}
+\begin{pmatrix}
+    v_1'\\
+    v_2'
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\begin{pmatrix}
+    v_1'\\
+    v_2'
+\end{pmatrix}
+=
+\begin{pmatrix}
+    \cos\theta_1' & \cos\theta_2' \\    
+    \sin\theta_2'& \sin\theta_2'
+\end{pmatrix}
+^{-1}
+\begin{pmatrix}
+    \cos\theta_1 & \cos\theta_2 \\    
+    \sin\theta_2& \sin\theta_2
+\end{pmatrix}
+\begin{pmatrix}
+    v_1\\
+    v_2
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\begin{pmatrix}
+    v_1'\\
+    v_2'
+\end{pmatrix}
+=
+\dfrac{1}{\sin(\theta_1'-\theta_2')}
+\begin{pmatrix}
+    \sin(\theta_1-\theta_2') & \sin(\theta_2-\theta_2') \\    
+    -\sin(\theta_1-\theta_1')& \sin(\theta_2-\theta_1')
+\end{pmatrix}
+\begin{pmatrix}
+    v_1\\
+    v_2
+\end{pmatrix}
+\end{equation}
+
+\begin{equation}
+\begin{pmatrix}
+    v_1'\\
+    v_2'
+\end{pmatrix}
+=
+\begin{pmatrix}
+    \cos \theta_\delta & -\sin \theta_\delta \\    
+    \sin \theta_\delta& \cos \theta_\delta
+\end{pmatrix}
+\begin{pmatrix}
+    v_2\\
+    v_1
+\end{pmatrix}
+\end{equation}
+=
+\begin{equation}
+\begin{pmatrix}
+    v_1'\\
+    v_2'
+\end{pmatrix}
+=
+\begin{pmatrix}
+    0 & 1 \\    
+    1 & 0
+\end{pmatrix}
+\begin{pmatrix}
+    v_1\\
+    v_2
+\end{pmatrix}
+=
+\begin{pmatrix}
+    v_2\\
+    v_1
+\end{pmatrix}
+\end{equation}
+
+\end{document}
