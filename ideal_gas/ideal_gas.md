@@ -1,6 +1,8 @@
 The ideal gas
 =============
 
+If equations not displayed appropriately, use this [tool](http://htmlpreview.github.io/) with the attached html document.
+
 The [ideal gas](https://en.wikipedia.org/wiki/Ideal_gas) is perhaps one of the most simplistic models of a physical system which actually describe real gases under special conditions (low densities, high temperatures).
 
 *Macroscopically*, an ideal gas enclosed in a container of volume  at  pressure  and temperature  is one that satisfies the equation of state
