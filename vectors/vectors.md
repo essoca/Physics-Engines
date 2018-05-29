@@ -1,5 +1,5 @@
 Vectors
-=============
+============
 
 Vectors are objects used in Physics to represent quantities that have a direction associated (like displacement: you walk a certain amount of meters heading north). In this project, a given number of vectors are drawn randomly and the user has to add them using the tail-to-head method.
 
