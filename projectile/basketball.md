@@ -1,6 +1,9 @@
 Projectile motion
 =================
 
+If equations not displayed appropriately, use this [tool](http://htmlpreview.github.io/) with the attached html document.
+
+
 Projectile motion is a combination of a horizontal motion at constant speed (if we neglect air resistance) and a vertical motion at constant acceleration due to gravity.
 
 *x* = *x*<sub>0</sub> + *v*<sub>0*x*</sub>*t*
