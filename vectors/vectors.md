@@ -22,6 +22,6 @@ Note that once the vector sum---which you should draw using a different color (s
 ### Sample video
 
 <video>
-  <source src = "https://github.com/essoca/Physics-Engines/blob/master/vectors/vectors.webm" type =      "video/webm; codecs=vp9,vorbis"> 
-  <source src = "https://github.com/essoca/Physics-Engines/blob/master/vectors/vectors.mp4" type =      "video/mp4">
+  <source src = "https://raw.githubusercontent.com/essoca/Physics-Engines/master/vectors/vectors.webm" type =      "video/webm; codecs=vp9,vorbis"> 
+  <source src = "https://raw.githubusercontent.com/essoca/Physics-Engines/master/vectors/vectors.mp4" type =      "video/mp4">
 </video>
