@@ -18,3 +18,10 @@ The length of a vector gives a natural scale to draw. Once you identified the co
 The simpler the better. In order to check if you have clicked on the vector, you may just detect the collision of the mouse position with the shortest rectangle containing the polygon (easily obtained in Pygame with get\_rect). To detect if the tail of one vector is on the head of another one, you may just check if you have clicked inside the circle centered half way between the head and tip of the arrow representing the vector, with radius *t*/2. Make sure that when these events happen, you force the coordinates of the involved head and tail to coincide (here head denotes the coordinates that you get by using the components of the vector referred to the coordinates of the tail).
 
 Note that once the vector sum---which you should draw using a different color (say red) than the blue above---has been drawn, the dragging events for the vectors should stop, which basically freeze the vectors.
+
+### Sample video
+
+<video>
+  <source src = "https://github.com/essoca/Physics-Engines/blob/master/vectors/vectors.webm" type =      "video/webm; codecs=vp9,vorbis"> 
+  <source src = "https://github.com/essoca/Physics-Engines/blob/master/vectors/vectors.mp4" type =      "video/mp4">
+</video>
