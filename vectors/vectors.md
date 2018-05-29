@@ -11,7 +11,11 @@ In 2D, vectors are represented by the cartesian coordinates (*A*<sub>*x*</sub>,�
 
 The length of a vector gives a natural scale to draw. Once you identified the coordinates of the tail, you can get the vertices of the polygon defining the arrow by knowing the polar coordinates of the vector and some aspect ratios. For the figure below, for instance,
 *w* = 0.1*l*,   *t* = 0.2*l*,   *w*<sub>*t*</sub> = 0.6*w*.
+<<<<<<< HEAD
  ![Drawing a vector as an arrow](https://raw.githubusercontent.com/essoca/Physics-Engines/master/images/arrow.png)
+=======
+ ![Drawing a vector as an arrow](https://github.com/essoca/Physics-Engines/tree/master/images/arrow.png)
+>>>>>>> origin
 
 ### Detecting mouse events
 
