@@ -3,6 +3,7 @@
 
 """
 Randomly generate vectors and graphically add them by appropriate mouse dragging 
+@author: essoca
 """
 import sys, pygame
 import numpy as np
@@ -16,7 +17,7 @@ pygame.init()
 class Vector(object):
     
     def __init__(self,xy,thick_len=0.1,headSize_len=0.2,**kargs):
-        "Convert to cartesian if polar coordinatesare given"
+        "Convert to cartesian if polar coordinates are given"
        
         if kargs["comp"] == "polar":
             self.x = xy[0] * np.cos(xy[1])
