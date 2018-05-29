@@ -11,12 +11,8 @@ In 2D, vectors are represented by the cartesian coordinates (*A*<sub>*x*</sub>,�
 
 The length of a vector gives a natural scale to draw. Once you identified the coordinates of the tail, you can get the vertices of the polygon defining the arrow by knowing the polar coordinates of the vector and some aspect ratios. For the figure below, for instance,
 *w* = 0.1*l*,   *t* = 0.2*l*,   *w*<sub>*t*</sub> = 0.6*w*.
-<<<<<<< HEAD
- ![Drawing a vector as an arrow](https://raw.githubusercontent.com/essoca/Physics-Engines/master/images/arrow.png)
-=======
- ![Drawing a vector as an arrow](https://github.com/essoca/Physics-Engines/tree/master/images/arrow.png)
->>>>>>> origin
 
+ ![Drawing a vector as an arrow](https://raw.githubusercontent.com/essoca/Physics-Engines/master/images/arrow.png)
 ### Detecting mouse events
 
 The simpler the better. In order to check if you have clicked on the vector, you may just detect the collision of the mouse position with the shortest rectangle containing the polygon (easily obtained in Pygame with get\_rect). To detect if the tail of one vector is on the head of another one, you may just check if you have clicked inside the circle centered half way between the head and tip of the arrow representing the vector, with radius *t*/2. Make sure that when these events happen, you force the coordinates of the involved head and tail to coincide (here head denotes the coordinates that you get by using the components of the vector referred to the coordinates of the tail).
