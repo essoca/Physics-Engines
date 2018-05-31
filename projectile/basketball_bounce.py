@@ -1,5 +1,6 @@
 """
-Play basketball with bouncing (and drag)
+Play basketball with bouncing (and drag): 
+Euler method for motion, so there is error.
 @author: essoca
 """
 
